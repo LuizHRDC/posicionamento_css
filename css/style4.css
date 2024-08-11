@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #b0b0b0;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.topo-esquerda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 300px; 
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.linha {
+    display: flex;
+}
+
+.linha-1, .linha-2, .linha-3 {
+    margin: 0;
+}
+
+.direita-inferior {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.direita-inferior .linha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 3px;
+}

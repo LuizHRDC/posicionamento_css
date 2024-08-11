@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(187, 187, 187);
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.caixa-superior,
+.caixa-rolavel {
+    width: 95%;
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.caixa-superior {
+    text-align: left;
+    text-transform: uppercase;
+    height: 250px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.caixa-rolavel {
+    overflow-y: auto;
+    border: 5px solid red;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.conteudo-rolavel p {
+    margin: 0;
+}
